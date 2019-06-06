@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: movie_postgres_development
+  pool: 5
+  username: postgres
+  password: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: movie_postgres_test
+  pool: 5
+  username: postgres
+  password: postgres
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: movie_postgres_production
+  pool: 5
+  username: postgres
+  password: postgres
